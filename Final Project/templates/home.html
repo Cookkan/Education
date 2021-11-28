@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html>
+    <title>Personal </title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
+    <body>
+        <header class = "top-header">
+            <a class = "menu-item brand" href = {{url_for('home_page')}}>Personal Learning Path</a>
+            <a class = "menu-item" href = {{url_for('test_page')}} >Test</a>
+            <a class = "menu-item" href = {{url_for('learning_page')}}>Learning</a>
+        </header>
+        <div class = "box">
+            <div class = "title">
+                <h1><b>Personal Math Path</b></h1>
+            </div>
+            <div class = "text">
+                <p>This program will help you design your own math learning path based on your performance of the test</p><br>
+            </div>
+            <div class = "button">
+                <a class = "button" href = {{url_for('test_page')}}>Go to the test<form action=""></form></a>
+            </div>
+        </div>
+    </body>
+</html>

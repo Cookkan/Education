@@ -1,0 +1,42 @@
+Website
+
+Description: The website uses a test to evaluate the user's best way to learn mathematics with questions that match their abilities
+
+calculate
+
+-Test-
+
+Class 
+
+Question (10)
+- question
+- correct answer
+
+Userinput
+- answer input
+- time
+
+Results
+- calculate
+    - answer input/time (the larger the number the better)
+- learning path
+
+-Learning-
+
+-Group1 Higher than average
+
+-Group2 Average +-
+
+-Group3 Lower than average
+
+questions
+1. บริษัท A ผลิตเครื่องซักผ้าเฉลี่ย 441 เครื่อง ในเวลา 3 ปี บริษัท B ผลิตเครื่องซักผ้าเฉลี่ยได้ 10 เครื่องใน 1 เดือน อยากทราบว่าในระยะเวลา 1 ปี บริษัททั้งสองจะผลิตเครื่องซักผ้าได้เฉลี่ยจำนวนเท่าไหร่, 267
+2. ผลบวกของ 1 + 3 + 5 + ... + 37 + 39 เท่ากับ, 400
+3. ค่าของ P จากสมการ 2P + 5 + 4P = 3P + 23 เท่ากับ, 6
+4. สัญญาซื้อยาสีฟัน 6 โหล ราคาหลอดละ 15 บาท สัญญาซื้อยาสีฟันเป็นเงินกี่บาท, 1080
+5. 36 มีตัวประกอบกี่จำนวน, 9
+6. เลขสองจำนวนมี ห.ร.ม. คือ 5 และ ค.ร.น. คือ 60 ถ้าเลขจำนวนที่หนึ่งคือ 20 อยากทราบว่าเลขจำนวนที่สองเท่ากับเท่าไหร่, 15
+ึ7. จำนวนนับตั้งแต่ 15 ถึง 40 ที่มี 2 และ 5 เป็นตัวประกอบทั้งหมดกี่ตัว, 16
+8. ถ้ามุมยอดในสามเหลี่ยมหน้าจั่วเท่ากับ 80 มุมที่ฐานเท่ากับกี่องศา, 50
+9. 24 เท่ากับ 8% ของ x, x เท่ากับเท่าไหร่, 300
+10. MCDLXIX เท่ากับเท่าไหร่, 1469

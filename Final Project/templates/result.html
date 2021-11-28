@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Learning Path</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/result.css') }}">
+    </head>
+    <body>
+        <header class = "top-header">
+            <a class = "menu-item brand" href = {{url_for('home_page')}}>Personal Learning Path</a>
+            <a class = "menu-item" href = {{url_for('test_page')}} >Test</a>
+            <a class = "menu-item" href = {{url_for('learning_page')}}>Learning</a>
+        </header>
+        <div class = "title">
+            <h1>Results</h1>
+        </div>
+        <div class = "text">
+            <h2>This is your learning path {{outcome}}</h2>
+        </div>
+        <div class = "button">
+            <a class = "button" href = {{url_for('learning_page')}}></a>
+        </div>
+    </body>
+</html>

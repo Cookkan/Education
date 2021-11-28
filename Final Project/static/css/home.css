@@ -1,0 +1,59 @@
+html, body {
+    background-image: url("grid_bg.jpeg");
+    height: 1000px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.top-header {
+    background-color: rgb(85, 85, 85);
+}
+
+.menu-item {
+    color: white;
+    padding: 15px;
+    display: inline-block;
+    text-decoration: none;
+    
+}
+
+.brand {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.main-content {
+    max-width: 700px;
+    margin: auto;
+}
+.box {
+    background-color: rgb(255, 194, 224);
+    padding: 20px;
+    margin: 30px;
+    align-self: center;
+    border-radius: 5px;
+}
+
+.title{
+    color:black;
+    font-size: 30px;
+    margin: 20px;
+    text-align: center;
+}
+
+.text{
+    color: black;
+    font-size: 18px;
+    margin:20px;
+    text-align: center;
+}
+
+.button {
+    color: black;
+    background-color: rgb(255, 138, 195);
+    margin: 20px;
+    display: inline-block;
+    border-radius: 10px;
+    text-align: center;
+}

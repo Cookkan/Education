@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/test.css') }}">
+</head>
+<body>
+<header class = "top-header">
+    <a class = "menu-item brand" href = {{url_for('home_page')}}>Personal Learning Path</a>
+    <a class = "menu-item" href = {{url_for('test_page')}} >Test</a>
+    <a class = "menu-item" href = {{url_for('learning_page')}}>Learning</a>
+</header>
+<div class = "title">
+    <h1>The Test</h1>
+</div>
+<div class = "subtitle">
+    <p>For this test, you won't need to add any unit in any of the questions.</p>
+</div>
+<form action="/result" method="POST">
+    <div class = "test">
+        {{mathtest.q1.label}} <br> {{mathtest.q1}}
+        <br>
+        {{mathtest.q2.label}} <br> {{mathtest.q2}}
+        <br>
+        {{mathtest.q3.label}} <br> {{mathtest.q3}}
+        <br>
+        {{mathtest.q4.label}} <br> {{mathtest.q4}}
+        <br>
+        {{mathtest.q5.label}} <br> {{mathtest.q5}}
+        <br>
+        {{mathtest.q6.label}} <br> {{mathtest.q6}}
+        <br>
+        {{mathtest.q7.label}} <br> {{mathtest.q7}}
+        <br>
+        {{mathtest.q8.label}} <br> {{mathtest.q8}}
+        <br>
+        {{mathtest.q9.label}} <br> {{mathtest.q9}}
+        <br>
+    </div>
+    <div class = "button">
+        {{mathtest.button}}
+    </div>
+</form>
+</body>
+</html>

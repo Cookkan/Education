@@ -1,0 +1,42 @@
+html, body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.top-header {
+    background-color: rgb(85, 85, 85);
+}
+
+.menu-item {
+    color: white;
+    padding: 15px;
+    display: inline-block;
+    text-decoration: none;
+    
+}
+
+.brand {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.title{
+    font-size: 20px;
+    margin: 20px
+}
+
+.text{
+    font-size: 13px;
+    margin: 20px;
+}
+
+.button {
+    color: black;
+    background-color:lightblue;
+    margin: 20px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+}
